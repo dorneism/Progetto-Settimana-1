@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.65rem;
+    font-size: 1.1rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+#logo {
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+
+.epicode {
+    width: 150px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #25a2c3;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.title {
+    height: 300px;
+    background-image: url(/assets/img/banner.jpg);
+    background-position: center;
+}
+
+.title p {
+    text-align: center;
+    padding: 30px;
+    color: rgb(68, 68, 91);
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #f04c2f;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #25a2c3;
+}
+
+article p {
+    text-align: center;
+    padding: 10px 40px 40px 40px;
+    color: rgb(68, 68, 91);
+    display: block;
+    margin: 0 auto;
+}
+
+article h2 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#notebook {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#quote {
+    background-color: #e22d0e;
+    height: 300px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+#quote h2,
+blockquote {
+    color: white;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+#quote p {
+    color: white;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container {
+    border: 1px solid #dee1e3;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 90%;
+
+}
+
+footer {
+    background-color: #25a2c3;
+    height: 400px;
+    padding: 50px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+
+footer address,
+a {
+    color: #c8e7f0;
+    text-align: center;
+    font-style: italic;
+}
+
+footer ul li {
+    list-style-type: none;
+
+}
+
+hr {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+address p {
+    margin-top: 30px;
+}
